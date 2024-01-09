@@ -16,6 +16,20 @@ body{
 
 }
 
+.section-title{
+    color: black;
+    text-align: center;
+    font-size: 35PX;
+    font-weight: 700;
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
 /* nav realated styles */
 nav{
     display: flex;
@@ -25,7 +39,7 @@ nav{
 }
 
 .nav-title {
-   color: black;
+   color:rgb(19, 18, 18);
 font-size: 45px;
 font-weight: 800;
 }
@@ -39,18 +53,47 @@ nav li {
 }
 nav a{
     text-decoration: none;
-    color: #474747;
+    color: rgb(41, 40, 40);
 }
 
 /* header realted styles */
 .header {
-  background-color: #FFF8F3; 
+  background-color: hwb(0 100% 0%); 
+  background-image: url('../images/header_bg.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
+.banner-content{
+ max-width: 500px;
+}
+
 .banner .profile-pic{
     width: 500px;
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+.banner-title{
+   font-size: 85px;
+   font-style: normal;
+   font-weight: 700; 
+   margin-top: 5px;
+   margin-bottom: 20px;
+}
+/* main section styles */
+/* about section styles */
+.about{
+    padding: 130px;
+    border-radius: 130px;
+    background: #FFF8F3;
+    margin: 130px 0;
 }
